@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/nuxt-app-about",
-  "version": "4.0.0-alpha.3",
+  "version": "4.0.0-alpha.4",
   "description": "About App for your Open Web Desktop client",
   "keywords": [
     "owd-client",
