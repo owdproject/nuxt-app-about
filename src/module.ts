@@ -32,32 +32,27 @@ export default defineNuxtModule({
         {
           title: 'Vue.js',
           name: 'simple-icons:vuedotjs',
-          size: 18,
-          style: 'margin: 3px -5px 0 0'
+          size: 18
         },
         {
           title: 'Nuxt.js',
           name: 'simple-icons:nuxt',
-          size: 25,
-          style: 'margin-top: -1px'
+          size: 25
         },
         {
           title: 'TypeScript',
           name: 'simple-icons:typescript',
-          size: 18,
-          style: 'margin-top: 3px'
+          size: 18
         },
         {
           title: 'PrimeVue',
           name: 'simple-icons:primevue',
-          size: 18,
-          style: 'margin-top: 3px'
+          size: 18
         },
         {
           title: 'Tailwind CSS',
           name: 'simple-icons:tailwindcss',
-          size: 18,
-          style: 'margin-top: 3px'
+          size: 18
         }
       ]
     }

@@ -50,7 +50,7 @@ const runtimeConfig = useRuntimeConfig()
 
 <style scoped lang="scss">
 .about {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 
   &__title {
@@ -68,25 +68,26 @@ const runtimeConfig = useRuntimeConfig()
 
   &__version {
     margin: 16px 0;
-    font-size: 18px;
+    font-size: 14px;
     opacity: 0.3;
   }
 
   &__powered-by {
-    margin-top: 12px;
+    margin-top: 16px;
     opacity: 0.5;
 
     ul {
       display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
       margin: 0 auto;
-      max-width: min-content;
-      line-height: 23px;
-      text-align: right;
-      text-transform: uppercase;
+      padding: 0;
       list-style-type: none;
 
       li {
-        margin: 0 8px;
+        display: flex;
+        align-items: center;
       }
     }
   }
